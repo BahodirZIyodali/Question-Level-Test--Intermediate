@@ -1,5 +1,5 @@
 const quizForm = document.getElementById('quiz-form');
-		const result = document.getElementById('result');
+	const result = document.getElementById('result');
         const correct =document.getElementById('correct');
 		quizForm.addEventListener('submit', (event) => {
 			event.preventDefault();
