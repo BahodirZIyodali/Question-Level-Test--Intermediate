@@ -8,7 +8,6 @@ const quizForm = document.getElementById('quiz-form');
 			let i = 1;
 			let TestAnswer = '';
 			for (const entry of form) {
-          
 				const answer = entry[1];
 				if (answer === 'correct'  ) {
 					score++;
