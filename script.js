@@ -21,3 +21,4 @@ const quizForm = document.getElementById('quiz-form');
 			TestAnswer += `<h2>Your score: ${score} out of 20</h2>`;
 			result.innerHTML = TestAnswer;
 		});
+ 
